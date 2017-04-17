@@ -1,0 +1,39 @@
+{
+  "name": "array-move-item",
+  "version": "1.0.0",
+  "description": "Move an array item to a different position within array bounds",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://illarionvk@github.com/illarionvk/array-move-item.git"
+  },
+  "keywords": [
+    "array",
+    "arr",
+    "move",
+    "change",
+    "clamped",
+    "position",
+    "index"
+  ],
+  "author": {
+    "name": "Illarion Koperski",
+    "email": "illarionvk@gmail.com",
+    "url": "illarionvk.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/illarionvk/array-move-item/issues"
+  },
+  "homepage": "https://github.com/illarionvk/array-move-item#readme",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.3"
+  }
+}
